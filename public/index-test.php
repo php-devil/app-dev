@@ -6,3 +6,8 @@
  *
  * Входной сарипт приложения для unit тестирования
  */
+
+require_once dirname(__DIR__) . '/vendor/autoload.php';
+
+$config = require dirname(__DIR__) . '/application/config/web.php';
+return \PhpDevil\Devil::instantiate($config);

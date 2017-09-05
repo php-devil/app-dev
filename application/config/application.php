@@ -9,6 +9,10 @@
 
 return [
     'components' => [
-        'db' => [],
+        'db' => [
+            'dsn'      => 'mysql:host=localhost;dbname=dev_phpdevil_app',
+            'user'     => 'root',
+            'password' => '',
+        ],
     ],
 ];
