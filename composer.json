@@ -10,8 +10,8 @@
     }
   ],
   "require": {
-      "php-devil/php-devil":       "^v1.0.x-dev",
-      "php-devil/php-devil-tests": "^v1.0.x-dev"
+      "php-devil/php-devil":       "v1.0.x-dev",
+      "php-devil/php-devil-tests": "v1.0.x-dev"
   },
   "repositories": [
     {"type": "vcs", "url": "https://github.com/php-devil/php-devil"},
