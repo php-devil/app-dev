@@ -8,5 +8,7 @@
  */
 
 return [
-
+    'components' => [
+        'db' => [],
+    ],
 ];

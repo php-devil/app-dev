@@ -7,4 +7,11 @@
 
 $config = require __DIR__ . '/application.php';
 
+/**
+ * Фронт-контроллер веб-прилодения.
+ * Экземпляр будет создан методом Devil::instantiate() во входном скрипте.
+ * @var \PhpDevil\web\Application
+ */
+$config['class'] = \PhpDevil\web\Application::className();
+
 return $config;
