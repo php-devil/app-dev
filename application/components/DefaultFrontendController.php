@@ -6,7 +6,7 @@
  */
 
 namespace app\components;
-use PhpDevil\base\BaseController;
+use PhpDevil\web\Controller;
 
 /**
  * Class DefaultFrontendController
@@ -19,7 +19,7 @@ use PhpDevil\base\BaseController;
  * @package app\components
  * @author Alexey Volkov <alex.phpdevil@gmail.com>
  */
-class DefaultFrontendController extends BaseController
+class DefaultFrontendController extends Controller
 {
 
 }

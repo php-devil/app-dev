@@ -10,5 +10,8 @@ use app\components\DefaultFrontendController;
 
 class DefaultController extends DefaultFrontendController
 {
-
+    public function actionVersion()
+    {
+        echo 'verion action of ' . __CLASS__;
+    }
 }
