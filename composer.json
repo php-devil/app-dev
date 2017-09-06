@@ -16,5 +16,8 @@
   "repositories": [
     {"type": "vcs", "url": "https://github.com/php-devil/php-devil"},
     {"type": "vcs", "url": "https://github.com/php-devil/php-devil-tests"}
-  ]
+  ],
+  "autoload": {
+    "psr-4": {"app\\": "application"}
+  }
 }

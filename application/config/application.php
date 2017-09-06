@@ -15,4 +15,10 @@ return [
             'password' => '',
         ],
     ],
+
+    'modules' => [
+        'test' => [
+            'class' => \app\modules\test\TestModule::className(),
+        ],
+    ]
 ];
