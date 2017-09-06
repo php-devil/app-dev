@@ -7,6 +7,8 @@
  * Входной скрипт веб-приложения.
  */
 
+ini_set('display_errors', 1);
+
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 $config = require dirname(__DIR__) . '/application/config/web.php';
