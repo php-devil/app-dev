@@ -11,7 +11,7 @@ use app\components\DefaultFrontendController;
 /**
  * Class DefaultPageController
  * Контроллер для отображения страниц по умолчанию
- * 
+ *
  * @package app\controllers
  * @author Alexey Volkov <alex.phpdevil@gmail.com>
  */
